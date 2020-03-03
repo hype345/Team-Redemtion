@@ -45,3 +45,11 @@ text-align: center;
 padding: 15px;
 border: 1px solid #000000;
 }
+
+h1.heading{
+  text-align:center
+}
+
+h2.subheading{
+  text-align:center
+}
