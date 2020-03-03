@@ -2,7 +2,23 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+h1{
+  font-family: "Andale Mono", monospace;
+  font-size: 200%;
+  text-align: center;
+
+}
+h2{
+  font-family: "Andale Mono", monospace;
+  font-size: 150%;
+  text-align: center;
+}
+p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
   .topnav {
     overflow: hidden;
     background-color: rgb(199, 14, 14);
