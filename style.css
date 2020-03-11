@@ -39,7 +39,7 @@ body{
   display:flex;
   flex-direction: row-reverse;
   margin:0
-  position: relative;
+
 }
 
 body.back{
