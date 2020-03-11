@@ -9,47 +9,116 @@ body{
 .header{
   height:70px;
   width: 100%;
-  background-color: #F74343;
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: rgb(130, 180, 209);
+  border: 1px solid #616161;
+  box-shadow: 0px 4px 4px rgba(116, 114, 114, 0.25);
 
   display:flex;
   flex-direction: row-reverse;
   margin:0
 }
 
+.footer {
+  box-shadow: 0px 2px 2px rgba(104, 103, 103, 0.25);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height:70px;
+  width: 100%;
+  background-color: rgb(71, 78, 136);
+  text-align: center;
+  border: .1px solid #555555;
+  box-shadow: 0px 1px 1px rgba(129, 128, 128, 0.25);
+
+  display:flex;
+  flex-direction: row-reverse;
+  margin:0
+  position: relative;
+}
+
+body.back{
+  background-color: lightgray;
+}
+
 .button{
   width: 13%;
-  border: 1px solid #000000;
+  border: .025px solid #747474;
   text-align: center;
-  font-family: Merriweather;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 23px;
 padding: 20px 0;
+font-family: "Palatino Linotype";
+
 }
 
 .button:hover{
-  background-color: rgb(247, 35, 35);
+  background-color: rgb(132, 168, 189);
 }
 
 .redemption{
   width:35%;
-  font-family: Merriweather;
+  font-family: "Palatino Linotype";
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
 line-height: 31px;
 text-align: center;
 padding: 15px;
-border: 1px solid #000000;
+border: 1px solid #646262;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.columnextra {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p.text{
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 75px;
+  color: rgb(85, 85, 88);
+  font-family: "Palatino Linotype";
+
 }
 
 h1.heading{
-  text-align:center
+  text-align:center;
+  margin-top:75px;
+  color: rgb(92, 92, 92);
+  font-family: "Palatino Linotype";
 }
 
 h2.subheading{
-  text-align:center
+  text-align:center;
+  color: rgb(92, 92, 92);
+  font-family: "Palatino Linotype";
+
+}
+
+.homeright{
+  float:right;
+  margin-right: 250px;
+}
+.homeleft{
+  float:left;
+  margin-left: 250px;
+}
+ul{
+  margin-top: 85px;
+  margin-left: 150px;
 }
