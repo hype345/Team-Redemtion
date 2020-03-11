@@ -135,7 +135,6 @@ ul{
   display: flex;
   flex-direction: row;
   align-items: center
-  justify-content: space-around;
 }
 .ashley{
   width:500px;
