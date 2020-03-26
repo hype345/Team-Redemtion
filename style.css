@@ -102,6 +102,15 @@ p.text{
 
 }
 
+p.text2{
+  margin-right: 150px;
+  margin-left: 150px;
+  color: rgb(85, 85, 88);
+  font-family: "Palatino Linotype";
+  text-align: center;
+
+}
+
 h1.heading{
   text-align:center;
   margin-top:75px;
