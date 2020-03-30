@@ -22,27 +22,32 @@ body{
   margin:0
   
 }
-
-.first {
-  width: 42%;
-  float: left;
-  height: 300px;
-  background-color:  rgb(130, 180, 209);
-  border: 5px solid #000000;
-
-  margin-left: 50px;
-  margin-right: 50px;
+.oop{
+  color: rgb(85, 85, 88);
+  font-family: "Palatino Linotype";
+  background-color: lightgray;
+  padding: 20px 34px;
+  font-size: 20px;
 
 }
+.firstcontainer{
+  text-align:center;
+}
+
+.first {
+  width: 50%;
+  height: 400px;
+  background-color:  rgb(130, 180, 209);
+  border: 5px solid #000000;
+  margin-bottom:50px;
+  display: inline-block
+}
 .second {
-  width: 42%;
-  float: left;
+  width: 50%;
   height: 300px;
   background-color:  rgb(130, 180, 209);
   border: 5px solid #000000;
-
-  margin-right: 50px;
-  margin-left: 50px;
+  display: inline-block;
 
   margin-bottom:100px;
 }
@@ -121,6 +126,12 @@ p.text{
   margin-right: 150px;
   margin-left: 150px;
   margin-bottom: 75px;
+  color: rgb(85, 85, 88);
+  font-family: "Palatino Linotype";
+
+}
+
+p.textother{
   color: rgb(85, 85, 88);
   font-family: "Palatino Linotype";
 
